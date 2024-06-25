@@ -247,43 +247,43 @@ Segmenting customers based on purchase history, preferences, and demographics.
 ⦁	The average freight value in 2017 was 19.19 as opose to 20.48 in 2018, indictaing a percentage increase of a 6.3% in flight value.
 ⦁	The most preferred method of payment by cutomers across different states was Credit card.
 ## 8.4.2 Order Trends Analysis
- 
+ ![orders](https://github.com/Numfor51/Power-BI-Project/assets/173632337/03f5398f-5b5f-4e32-b544-5a4c0b3e506c)
 ### Key Insights:
 ⦁	We had gain of 1 day in the average shipment time. 101 days in 2018 as opose to 102 days in 2017. We noticed that most of the shipments were being on Saturdays.
 ⦁	It was noticed that most of our orders are being made on Thursday and most orders are made in the 3rd quarter of the year and precisely in the month of July
 ⦁	It is observed that most of our orders came from State SP(7336 orders) and the least from State RR(11 orders).
 
 ## 8.4.3 Product Trend Analysis
- 
+ ![prdts](https://github.com/Numfor51/Power-BI-Project/assets/173632337/770110fa-3d75-4a8c-a545-fc54bdfc36eb)
 ### Key Insights:
 ⦁	Our most and least valuable or selling products are the top 10 highest quantity order and first 10 from the bottom least selling products
 
 ## 8.4.4 Payment Trends Analysis
- 
+ ![paymt](https://github.com/Numfor51/Power-BI-Project/assets/173632337/09f9d2eb-401f-4e18-943d-29e44d8113e8)
 ### Key Insights:
 ⦁	The most preferred method of payment by cutomers across different states was Credit card.
 ⦁	The average number of payment installments was marked at 24 installments
 
 ## 8.4.5 Delivery Trends Analysis
- 
+ ![deliv](https://github.com/Numfor51/Power-BI-Project/assets/173632337/8f778748-a4c4-450f-a35a-57c5c24934bd)
 ### Key Insights:
 ⦁	We had remarkable successful gain in the average delivery time over the years. As long as 153days in 2016, and as low as 105days in 2017 and 95days in 2018. 
 ⦁	It was also observed that most of the deliveries are effected on Thursdays every week and in the month of November in the 4th quarter of the year.
 
 ## 8.4.6 Customer Trends Analysis
- 
+ ![custo](https://github.com/Numfor51/Power-BI-Project/assets/173632337/b1c770af-20b0-4e5c-b992-7e7ef057153d)
 ### Key Insights:
 ⦁	It can be observed that most of our most valuable customers are located in State SP.
 ⦁	The most expensive or the state with the highest freight value was State AC which the on the contrary one of the states with the list orders. On the one hand, the state with least average freight value was State SP which the state with our must valuable customers.
 
 ## 8.4.7 Seller Trends Analysis
- 
+ ![seller](https://github.com/Numfor51/Power-BI-Project/assets/173632337/0796925b-8f25-4bc1-8034-ea9f8588502a)
 ### Key Insights:
 ⦁	Most of our sellers are distribute in State SP and in the Soa Paulo city
 ⦁	Our top 10 must valuable sellers or sellers with the highest sales were considered to be those who have sell volumes > 200000units.
 
 ## 8.4.8 Review Trends Analysis
- 
+ ![review](https://github.com/Numfor51/Power-BI-Project/assets/173632337/3d0aa46e-0367-4c68-9c06-ff5153ec029a)
 ### Key Insights:
 ⦁	Products with highest reviews had a review score of at least 5
 
