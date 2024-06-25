@@ -16,7 +16,7 @@ It is worthy to mention that the process of Data Analysis is very broad and comp
 So to say, a data analysis workflow is a process consisting of a set of steps to follow when analyzing data. Usinig a workflow allows everyone involved to know what next would happen as the project progresses. 
 Also, it will help as a guide to your methodology. Using a workflow minimizes time and errors. It also helps in work or data reproducibility and scalability. 
 It is also good to mention here that there is no single rigid workflow or a universal data analyss workflow framework that satisfies all analysis or pojects. However, as a general rule, the workflow diagram below could be a good guideline in your data analysis project. 
-![image](C:\Users\HP\Desktop\Photos)
+![workflow](https://github.com/Numfor51/Power-BI-Project/assets/173632337/688bfd6c-85a9-4f85-9c20-7cf38843e9de)
 Figure:1.0. A Data Analysis Workflow
 
 This structure will then serve as a methodology or approach that will guide us complete and attend the objectives of our project. 
