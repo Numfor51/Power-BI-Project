@@ -199,13 +199,17 @@ The data was imported as a csv file into Power BI, transformed and loaded (ETL)
 
 ⦁	Order delivery carrier date table: 
 
-    -Null values were found which were removed. However, this operation is unorthodox without the consent of the rest of the team. This was only done for the purpose of this project to ease the work for better understanding. So, the final report values may not be the same with others working on the same data. 
+    -Null values were found which were removed. However, this operation is unorthodox without the consent of the rest of the team. 
+    This was only done for the purpose of this project to ease the work for better understanding. 
+    So, the final report values may not be the same with others working on the same data. 
     
     -This table was split to have the date and the time as separate columns, then renamed.
     
 ⦁	Order delivery customer date table: 
 
-    -Null values were found which were removed. Again, this operation is unorthodox without the consent of the rest of the team. This was only done for the purpose of this project to ease the work for better understanding. So, the final report values may not be the same with others working on the same data.
+    -Null values were found which were removed. Again, this operation is unorthodox without the consent of the rest of the team. 
+    This was only done for the purpose of this project to ease the work for better understanding. 
+    So, the final report values may not be the same with others working on the same data.
     
     -This table was split to have the date and the time as separate columns, the renamed.
     
@@ -213,26 +217,51 @@ The data was imported as a csv file into Power BI, transformed and loaded (ETL)
 
     -This table was split to have the date and the time as separate columns but the time column was then deleted because the time was zero-zero.
     
-    -All the datatypes for the three date columns were text type and so they were all changed to date type. However, each of them threw error messages when changed to date type for reasons unknown but the error message indicated that there were errors in some values. The percentage error was indicated to be at least 60% for each column which really raised some concerns as to why this high error margin. However, for the sake of this project, and to have a clean workable dataset, it was deemed necessary to delete or remove the errors. Once this was done, everything was fine with the dataset but we lost about 60% of vital information which could be misleading and affect decision making for the business. In cases like these, this operation again is unorthodox to perform without the consent of the rest of the team or your company. As such the final report values may not be the same with others working on the same data if there do not face this problem.
+    -All the datatypes for the three date columns were text type and so they were all changed to date type. 
+However, each of them threw error messages when changed to date type for reasons unknown but the error message indicated that there were errors in some values. 
+The percentage error was indicated to be at least 60% for each column which really raised some concerns as to why this high error margin. 
+However, for the sake of this project, and to have a clean workable dataset, it was deemed necessary to delete or remove the errors. 
+Once this was done, everything was fine with the dataset but we lost about 60% of vital information which could be misleading and affect decision making for the business. 
+In cases like these, this operation again is unorthodox to perform without the consent of the rest of the team or your company. 
+As such the final report values may not be the same with others working on the same data if there do not face this problem.
     
 ### 3. Orders dataset:
 
-⦁	The order_date and Ship_date table: These two tables had the dates joined with the time to appear like a datetime stamp. Equally, the datatypes were text instead of date type or date time stamp. Once the datatypes were changed to date time stamp, it threw errors. For this reason, the tables were split to have separate date and time tables, then later renamed. Again, when the date datatypes were changed to date type, it still threw errors. Checking the percentage error, it was found to be at least 35% for each column which really raised some concerns as to why this high error margin. However, for the sake of this project, and to have a clean workable dataset, it was deemed necessary to delete or remove the errors. Once this was done, everything was fine with the dataset but we lost about 60% of vital information which could be misleading and affect decision making for the business. In cases like these, this operation again is unorthodox to perform without the consent of the rest of the team or your company. As such the final report values may not be the same with others working on the same data if there do not face this problem.
+⦁	The order_date and Ship_date table: These two tables had the dates joined with the time to appear like a datetime stamp. 
+Equally, the datatypes were text instead of date type or date time stamp. 
+Once the datatypes were changed to date time stamp, it threw errors. For this reason, the tables were split to have separate date and time tables, then later renamed. 
+Again, when the date datatypes were changed to date type, it still threw errors. 
+Checking the percentage error, it was found to be at least 35% for each column which really raised some concerns as to why this high error margin. 
+However, for the sake of this project, and to have a clean workable dataset, it was deemed necessary to delete or remove the errors. 
+Once this was done, everything was fine with the dataset but we lost about 60% of vital information which could be misleading and affect decision making for the business. 
+In cases like these, this operation again is unorthodox to perform without the consent of the rest of the team or your company. 
+As such the final report values may not be the same with others working on the same data if there do not face this problem.
 ### 4. Payment_mode_dataset: 
 
 ⦁	Everything seemed to be ok with this dataset so cleaning was not necessary.
 
 ### 5. Products_dataset:
 
-⦁	Product_category_name table, Product_name_length table, Product description_length table, and Product_photos_qty table: These four tables were found to have null values of about 23% on average. The null values were removed. However, this operation is unorthodox without the consent of the rest of the team. This was only done for the purpose of this project to ease the work for better understanding. So, the final report values may not be the same with others working on the same data.
+⦁	Product_category_name table, Product_name_length table, Product description_length table, and Product_photos_qty table: 
+These four tables were found to have null values of about 23% on average. The null values were removed. 
+However, this operation is unorthodox without the consent of the rest of the team. 
+This was only done for the purpose of this project to ease the work for better understanding. 
+So, the final report values may not be the same with others working on the same data.
 
 ### 6. Reviews_dataset:
 
-⦁	Review_comment_title table: From observing this table, it was found that only 12% of the review comments had titles. The rest were blanks or null values but it was deemed necessary not to remove blanks because some customers could actually send messages without titles.
+⦁	Review_comment_title table: From observing this table, it was found that only 12% of the review comments had titles. 
+The rest were blanks or null values but it was deemed necessary not to remove blanks because some customers could actually send messages without titles.
 
-⦁	Review_comment_message table:  It was observed that 56% of all products had review messages or were reviewed while 44% were blanks or not reviewed. Again, it was necessary not to remove the blanks because our interest is not to work only with products that have been reviewed.
+⦁	Review_comment_message table:  It was observed that 56% of all products had review messages or were reviewed while 44% were blanks or not reviewed. 
+Again, it was necessary not to remove the blanks because our interest is not to work only with products that have been reviewed.
 
-⦁	Review_creation_date table and Review_answer_timestamp table: These tables were found to have a text datatype which was incorrect. However, when changed to their respective datatypes, it threw errors estimated to be as high as about 55% on average. For this reason, and to have a clean workable dataset, it was necessary to remove the errors event though downsizing the dataset. As such, the tables were split, then renamed, unnecessary columns removed, errors removed and given the right datatype. By doing this, everything works well for the dataset. However, this operation of removing errors or blanks must be done in consultation with the rest of the team because the operation is usually results misleading.
+⦁	Review_creation_date table and Review_answer_timestamp table: These tables were found to have a text datatype which was incorrect. 
+However, when changed to their respective datatypes, it threw errors estimated to be as high as about 55% on average. 
+For this reason, and to have a clean workable dataset, it was necessary to remove the errors event though downsizing the dataset. 
+As such, the tables were split, then renamed, unnecessary columns removed, errors removed and given the right datatype. 
+By doing this, everything works well for the dataset. 
+However, this operation of removing errors or blanks must be done in consultation with the rest of the team because the operation is usually results misleading.
 
 ### 7. Sellers_dataset:
 
@@ -240,7 +269,8 @@ The data was imported as a csv file into Power BI, transformed and loaded (ETL)
 
 # 8.0 DATA ANALYSIS
 
-By integrating these datasets in Power BI, you can create comprehensive dashboards and reports that provide a holistic view of the business, enable data-driven decision-making, and identify areas for improvement across various functions.
+By integrating these datasets in Power BI, you can create comprehensive dashboards and reports that provide a holistic view of the business, 
+enable data-driven decision-making, and identify areas for improvement across various functions.
 Analyzing the provided datasets in Power BI can address a variety of business questions, enhancing decision-making and operational efficiency. 
 
 ### 8.1 Key Insighs:
@@ -431,7 +461,8 @@ Segmenting customers based on purchase history, preferences, and demographics.
 ### Key Insights:
 ⦁	It can be observed that most of our most valuable customers are located in State SP.
 
-⦁	The most expensive or the state with the highest freight value was State AC which the on the contrary one of the states with the list orders. On the one hand, the state with least average freight value was State SP which the state with our must valuable customers.
+⦁	The most expensive or the state with the highest freight value was State AC which the on the contrary one of the states with the list orders. 
+On the one hand, the state with least average freight value was State SP which the state with our must valuable customers.
 
 ## 8.4.7 Seller Trends Analysis
  ![seller](https://github.com/Numfor51/Power-BI-Project/assets/173632337/0796925b-8f25-4bc1-8034-ea9f8588502a)
@@ -447,9 +478,11 @@ Segmenting customers based on purchase history, preferences, and demographics.
 
 # 9.0 CONCLUSION AND RECOMMENDATIONS
 
-⦁	It is recommended to maintain growth in all KPIs, such as freight value, price, revenue, payments, delivery time, shipment time, payment type. As such, the strategies implemented by various stakeholders and departments should align with these objective and should be strickly respected by cross functional teams. 
+⦁	It is recommended to maintain growth in all KPIs, such as freight value, price, revenue, payments, delivery time, shipment time, payment type. 
+As such, the strategies implemented by various stakeholders and departments should align with these objective and should be strickly respected by cross functional teams. 
 
-⦁	It is recommended to have a continuous review of shipment and delivery routes to the best interest of the company to have a reduction in the average delivery  and shipment time, to minimize cost and maintain customer satisfaction.  I therefore suggest that highly efficient routes which are less costly should be maintain while reviewing other routes. This is so because we have noticed that the state with the highest average freight value was the state with the least number of orders sold. Routes like these are advisable to reduce resource pull.
+⦁	It is recommended to have a continuous review of shipment and delivery routes to the best interest of the company to have a reduction in the average delivery  and shipment time, to minimize cost and maintain customer satisfaction.  I therefore suggest that highly efficient routes which are less costly should be maintain while reviewing other routes. 
+This is so because we have noticed that the state with the highest average freight value was the state with the least number of orders sold. Routes like these are advisable to reduce resource pull.
 
 ⦁	It is advisable that the customers and states with highest number of orders should be motivated with bonuses or gratifications and those with least orders, we should increase promotions and publicity.
 
