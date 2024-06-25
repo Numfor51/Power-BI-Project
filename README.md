@@ -8,6 +8,7 @@ In this project, we will be using Power BI to analyze and visualize data for a p
 ## 1.1 Aim of Project:
 At the end of this product, we hope to the achive the following
 ⦁	Learn how you can use Power Bi for data analysis and visualization.
+
 ⦁	Understand the steps involved in handling and analysing data or in order words, understand the different stages of a data analysis workflow
 
 # 2.0 BACKGROUND AND METHODOLOGY
