@@ -353,10 +353,15 @@ In the modelling relstionships established, the orders_table was the main or cen
 ## 8.2.1 Relationships established:
 
 Order dataset To Payment_mode dataset ..................................... 1:*
+
 Order dataset To Products dataset ............................................... 1:*
+
 Order dataset To Sellers dataset .................................................. 1:*
+
 Order dataset To Customers dataset ............................................. 1:*
+
 Order dataset To Reviews dataset ................................................ 1:*
+
 Delivery_status dataset To Payment_mode dataset ....................... 1:1
 
 ## 8.3 Data Analysis Expressions(DAX) Calculations.
