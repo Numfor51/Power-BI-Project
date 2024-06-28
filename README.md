@@ -346,6 +346,19 @@ Segmenting customers based on purchase history, preferences, and demographics.
 
 ⦁	What is the product range and diversity offered by each seller?
 
+# 8.2 Data Modelling
+In a bit to create relationships between the tablesin the different datasets to achive interactivity between them, it was noticed that, the modelling or relationship establishment came out authomatically,except for the reviews_dataset that did not establish a relationship. In this case, a connection was established between the orders_dataset and the reviews_dataset through the product_id and the reviews_id respectively. This is so because what we are actually reviewing are the products not the orders.
+In the modelling relstionships established, the orders_table was the main or central table and every other table was linked to it except the delivery_status_table that was linked to the payments_mode_table.
+
+## 8.2.1 Relationships established:
+
+Order dataset To Payment_mode dataset ..................................... 1:*
+Order dataset To Products dataset ............................................... 1:*
+Order dataset To Sellers dataset .................................................. 1:*
+Order dataset To Customers dataset ............................................. 1:*
+Order dataset To Reviews dataset ................................................ 1:*
+Delivery_status dataset To Payment_mode dataset ....................... 1:1
+
 ## 8.3 Data Analysis Expressions(DAX) Calculations.
 
 ### 8.3.1 Order Dataset:
