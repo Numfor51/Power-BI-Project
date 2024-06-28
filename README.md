@@ -1,3 +1,10 @@
+# POWER BI PROJECT
+# PROJECT TITLE: N2N SOLUTIONS PRODUCT SUPPY ANALYSIS FOR 2016 TO 2018 FISCAL YEARS USING POWER BI
+#                             BY LUC NUMFOR
+# This project is in partial fulfilment of the requirements for the award of a certification in Data Analysis
+# Year: June 2024   
+
+
 # 1.0 INTRODUCTION
 
 In the world of rapid changing technologies and innovation, business intelligence and data analytics is becoming inevitable in business management and decision making by managers of organizations.
