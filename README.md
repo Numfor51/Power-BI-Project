@@ -440,7 +440,7 @@ Delivery_status dataset To Payment_mode dataset ....................... 1:1
  ![kpi](https://github.com/Numfor51/Power-BI-Project/assets/173632337/a7dea918-3660-4f4a-93a6-6aa15f4ce7b4)
 ### Key Insights:
 
-⦁	We experience a 23% increase in the total number of orders in 2018(>17k orders) as opose to 2013(13k orders).
+⦁	We experience a 23% increase in the total number of orders in 2018(>17k orders) as opose to 2017(13k orders).
 
 ⦁	The average freight value in 2017 was 19.19 as opose to 20.48 in 2018, indictaing a percentage increase of a 6.3% in flight value.
 
