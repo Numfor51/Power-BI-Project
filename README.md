@@ -3,7 +3,7 @@
 In the world of rapid changing technologies and innovation, business intelligence and data analytics is becoming inevitable in business management and decision making by managers of organizations.
 Data analysis as we might have seen is a broad term with a range of techniques or platforms or softwares that can help reveal delightful or meaningful insights, trends and relationships that may exist within raw business or organizational data. Power BI lends itself and fits readily well as one of such business tools or softwares for oragnizational data analysis. Power BI allows you to create your own reports, run queries, or analyze data, then build interactive data visualization dashboards and analytics. You can then use your key insights or findings to make recommendations to managers to be able to make meaningful business decisions, improve performance and procedures, and also make predictions for future occurences.  
 
-In this project, we will be using Power BI to analyze and visualize data for a product supply company for 2016 to 2017 fiscal years. The dataset is gotten from kaggle.com.
+In this project, we will be using Power BI to analyze and visualize data for a product supply company for 2016 to 2018 fiscal years. The dataset is gotten from kaggle.com.
 
 ## 1.1 Aim of Project:
 At the end of this product, we hope to the achive the following
