@@ -499,8 +499,8 @@ On the one hand, the state with least average freight value was State SP which t
 ⦁	It is recommended to maintain growth in all KPIs, such as freight value, price, revenue, payments, delivery time, shipment time, payment type. 
 As such, the strategies implemented by various stakeholders and departments should align with these objective and should be strickly respected by cross functional teams. 
 
-⦁	It is recommended to have a continuous review of shipment and delivery routes to the best interest of the company to have a reduction in the average delivery  and shipment time, to minimize cost and maintain customer satisfaction.  I therefore suggest that highly efficient routes which are less costly should be maintain while reviewing other routes. 
-This is so because we have noticed that the state with the highest average freight value was the state with the least number of orders sold. Routes like these are advisable to reduce resource pull.
+⦁	It is recommended to have a continuous review of shipment and delivery routes to the best interest of the company to have a reduction in the average delivery  and shipment time, to minimize cost and maintain customer satisfaction.  It is therefore suggested that highly efficient routes which are less costly should be maintain while reviewing new less costly routes. 
+This is so because we have noticed that the state with the highest average freight value was the state with the least number of orders sold. For routes like these, it is advisable to reduce resource pull to them.
 
 ⦁	It is advisable that the customers and states with highest number of orders should be motivated with bonuses or gratifications and those with least orders, we should increase promotions and publicity.
 
@@ -508,7 +508,7 @@ This is so because we have noticed that the state with the highest average freig
 
 ⦁	To my opinion, the average payment installments of 24 installments is too high. Measures should be taken to reduce the payment time or number of installments.
 
-⦁	It is of interest to inverst more in our top selling products such as increase in stock and promotions such that they hardly run out of inventory.
+⦁	It is of interest to invest more in our top selling products such as increase in stock and promotions such that they hardly run out of inventory.
 
 ⦁	It is equally advisable to continuously motivate our most valuable sellers with incentives, bonuses for them to increase our sales volume and yield more returns in revenue and profit.
 
