@@ -1,6 +1,6 @@
 ## POWER BI PROJECT
 ## PROJECT TITLE: N2N SOLUTIONS PRODUCT SUPPLY ANALYSIS FOR 2016 TO 2018 FISCAL YEARS USING POWER BI
-## BY LUC NUMFOR
+## BY NUMFOR Lucas
 ## In partial fulfilment of the requirements for the award of a certification in Data Analytics   
 
 
